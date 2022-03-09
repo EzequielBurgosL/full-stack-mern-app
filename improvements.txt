@@ -1,0 +1,15 @@
+Next steps and improvements:
+- Migrate the data from local JSON to a Database (i.e. MongoDB).
+- Add database schemas (i.e. mongoose) to enforce a structure.
+- Split application in different repositories. For example, separate by layer.
+- Improve styling.
+- Add JS Docs to all functions.
+- Increase coverage on api areas.
+- Increase error handling.
+- Enforce CSS naming conventions and use an standard pattern to organize files (7-1 pattern, for example https://gist.github.com/rveitch/84cea9650092119527bc).
+- Add typescript to make development environment more robust.
+- Add an enterprise eslint configuration to make sure we use the same code style in our codebase.
+- Host the application into a server (i.e. Heroku).
+- Add a login and register system.
+- Customize access to different page features depending on the user type (admin, normal_user, premium_user, etc.).
+- Hide sensitive data (urls, keys, etc.) into a .env file.
