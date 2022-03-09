@@ -1,0 +1,26 @@
+.container {
+  width: calc(
+    45vw 
+    + calc(var(--card-margins) * 10)
+  );
+  max-width: 600px;
+  margin: 0 auto;
+  padding: var(--container-padding) 0;
+  min-height: calc(
+    100vh
+    - var(--header-height)
+    - var(--container-padding) * 2
+  );
+}
+
+.container > h2 {
+  color: lightgray;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.container > span {
+  color: lightgray;
+  cursor: pointer;
+  padding: var(--card-margins);
+}

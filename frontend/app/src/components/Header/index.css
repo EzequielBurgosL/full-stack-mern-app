@@ -1,0 +1,12 @@
+header {
+  padding: 0 var(--container-padding);
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+  background: linear-gradient(transparent, var(--primary-brand-light-color));
+}
+
+.header-title {
+  font-weight: bold;
+  color: var(--primary-dark);
+}

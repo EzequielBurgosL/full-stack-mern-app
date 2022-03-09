@@ -1,0 +1,23 @@
+.filter-item {
+  margin: 15px 0;
+}
+
+.filter-label {
+  color: var(--sub-header-color);
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.filter-count {
+  margin: var(--card-margins) 0 calc(var(--card-margins) * 2);
+  font-weight: bold;
+  color: #6e6e6e;
+}
+
+.checkbox {
+  display: inline-block;
+  font-size: 14px;
+  color: rgb(77, 77, 77);
+  margin-right: 15px;
+}

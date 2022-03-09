@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--footer-height);
+  background: var(--primary-brand-color);
+  color: var(--primary-white);
+}
